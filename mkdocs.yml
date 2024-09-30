@@ -1,0 +1,85 @@
+site_name: (I002450) Teledetectie practica 2024
+site_url: https://squidfunk.github.io/mkdocs-material/
+site_author: Jasper Feyen
+site_description: >-
+  Practicumcursus Teledetectie 2023-2024.
+
+# Copyright
+copyright: Copyright &copy; 2024 Jasper Feyen, Q-Forest Lab UGent
+nav:
+    - Home: index.md
+    #  - Extra_info.md
+    #  - Afdrukbare_pdfs.md
+    - P1 - Beeldvoorbewerking: 
+      - Introductie: P1/P1-intro.md
+      - Sentinel data: P1/P1-Sentinel2.md
+      - Het elektromagnetisch spectrum: P1/P1-QGIS-intro.md
+      - Kleurcomposieten: P1/P1-colour-composites.md
+
+theme:
+  name: material
+  palette:
+    primary: lime
+  language: nl
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - content.code.copy
+  logo: "assets/images/Q-ForestLab_Logo_GRB_Symbol - Color.svg"
+  favicon: "assets/images/Q-ForestLab_Logo_GRB_Symbol - Color.svg"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+#  - mdx_math
+
+plugins:
+  - print-site
+#  - search
+#   - with-pdf:
+#        author: ir. Jasper Feyen & prof. Frieke Vancoillie
+#        copyright: Remote Sensing/Spatial Analysis lab, Ugent (REMOSA)
+#        cover: false
+#        back_cover: true
+#        cover_title: Teledetectie 2021
+#        cover_subtitle: Practicals
+        #custom_template_path: TEMPLATES PATH
+        #toc_title: Ihoud
+#        heading_shift: true
+#        toc_level: 2
+#        ordered_chapter_level: 2
+        #excludes_children:
+        #    - 'release-notes/:upgrading'
+        #    - 'release-notes/:changelog'
+#        exclude_pages:
+#            - 'index.md'
+#            - 'Extra_info.md'
+#            - 'Afdrukbare_pdfs.md'
+        #convert_iframe:
+        #    - src: IFRAME SRC
+        #      img: POSTER IMAGE URL
+        #      text: ALTERNATE TEXT
+        #    - src: ...
+#        two_columns_level: 3
+#        render_js: true
+#        headless_chrome_path: C:\Program Files\Google\Chrome\Application\chrome.exe
+#        output_path: C:\Users\jaspe\Documents\Ugent\Onderwijs\Teledetectie\Tele_Practicalsd\document.pdf
+#        enabled_if_env: ENABLE_PDF_EXPORT
+        #debug_html: true
+        #show_anchors: true
+#        verbose: true
+#    - mkpdfs
+
+extra_javascript: 
+    - javascripts/config.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+#    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+
+use_directory_urls: false

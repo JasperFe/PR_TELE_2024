@@ -1,0 +1,32 @@
+    - P2 - Introductie tot Google Earth Engine: 
+      - Doel van het practicum: P2/P2-Goals.md
+      - EarthEngine data catalog: P2/P2-DataCatalog.md
+      - Introductie tot Earth Engine: P2/P2-Intro.md
+      - Satellietdata oproepen, filteren en visualiseren: P2/P2-ImageVisualization.md
+      - Reducing ImageCollections: P2/P2-Reducing.md
+      - Cloud masking: P2/P2-Cloud_masking.md
+      - (Extra) Oefeningen: P2/P2-Oefeningen.md
+    - P3 - Feature Extraction: 
+      - Intro: P3/P3-Intro.md
+      - Spectrale indices: P3/P3-Spectral_indices.md
+      - Beeldstatistieken: P3/P3-ImageStatistics.md
+      - Textuuranalyse: P3/P3-Texture.md
+      - Principale componenten analyse: P3/P3-PCA.md
+      - Oefeningen: P3/P3-Oefeningen.md
+    - P4 - Beeldclassificatie:
+      - Intro: P4/P4-intro.md
+      - CASE - Mangrove monitoring in Suriname: P4/P4-SurinameCase.md
+      - Niet-gesuperviseerde classificatie: P4/P4-Unsupervised.md
+      - Gesuperviseerde classificatie: P4/P4-Supervised.md
+      - Verbeteren van de classificatie: P4/P4-Improvement.md
+      - Oppervlaktebepaling: P4/P4-Oppervlaktebepaling.md
+      - Spectrale responsiecurves: P4/P4-SpectralResponse_oud.md
+      - Oefeningen: P4/P4-Oefeningen.md
+    - P5 - Tijdseries & Radar:
+      - Tijdseries: P5/P5-Timeseries.md
+      - SAR: P5/P5-SAR-tijdseries.md
+    - Oefeningen:
+      - Oefening 1 - Overstromingen Roermond: Oefeningen/Oef1_Roermond.md
+      - Oefening 2 - Het Zwarte Woud: Oefeningen/Oef2_Fritz.md
+      - Oefening 3 - Ferrarisbossen: Oefeningen/Oef3_Ferrarisbossen.md
+      - Oefening 4 - Overstroming Kerala: Oefeningen/Oef4_OverstromingKerala.md
